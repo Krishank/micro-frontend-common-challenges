@@ -2,6 +2,10 @@
 
 As now so much talk's are going around Micro frontend because of it is more extendable, manageable and also maintain the separation of concern between number of teams working in different par of application but there is so much ambiguity around this topic.
 
+I am creating this repository to mention the problem which we faced or the one will face while implemnting any large scale application in Micro Frontend.
+
+Personally I belive Micro frontend is the way forwards let's start mentioning our learnings which may help others if they are thinking to start there projects in Micro Frontend.
+
 # Challenges in Micro Frontend
 
 1. Let's assume if we have a 2 projects in same repository called old and new projects there are some custom node modules which are common between new and old project we don't wanna install them again and again we can use the method mentioned in code or simply read about NODE_PATH this will give us a flexibility to tell node it did't found the package from default searching also try the path which is provided in NODE_PATH
